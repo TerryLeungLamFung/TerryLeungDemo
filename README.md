@@ -38,7 +38,7 @@ Before running the app, make sure you have the following installed:
 1. Clone the repository:
    `git clone https://github.com/TerryLeungLamFung/TerryLeungDemo.git`  
 2. pod install:
-    `cd TerryLeungDemo && cd ios && pod install`
+    `cd TerryLeungDemo && yarn install && cd ios && pod install && cd ..`
 3. start project:
     `npx react-native run-ios` or `npx react-native run-android`
 4. start metro bundle:
