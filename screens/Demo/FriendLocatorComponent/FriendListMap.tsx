@@ -94,7 +94,6 @@ export const FriendListMap = (param: Param) => {
   };
 
   const markerPress = (item: any) => {
-    console.log('pressed!');
     directTolocationAnimate(item);
     setSelectMarker(item);
   };

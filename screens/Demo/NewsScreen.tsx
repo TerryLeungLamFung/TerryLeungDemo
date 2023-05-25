@@ -113,7 +113,6 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   articleView: {
-    height: 350,
     borderColor: '#888888',
     borderWidth: 2,
     marginHorizontal: 5,

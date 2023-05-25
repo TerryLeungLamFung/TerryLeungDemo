@@ -21,7 +21,6 @@ export default function BottomSheetView() {
       bottomSheetRef.current?.snapToIndex(0);
     }
   }, [bottomSheet]);
-
   let background = (
     <TouchableOpacity
       style={{

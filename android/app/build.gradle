@@ -166,9 +166,9 @@ dependencies {
         implementation jscFlavor
     }
 
-    implementation(project(':react-native-onesignal')){
-        exclude group: 'com.google.android.gms'
-    }
+//    implementation(project(':react-native-onesignal')){
+//        exclude group: 'com.google.android.gms'
+//    }
 
     implementation(project(':react-native-maps')){
         exclude group: 'com.google.android.gms'

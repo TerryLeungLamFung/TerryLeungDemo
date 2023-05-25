@@ -41,8 +41,6 @@ export const WeatherScreen = (param: Param) => {
 
   useEffect(() => {
     const code = cityName[selectedCity].code;
-    console.log('code', code);
-    //const code = cityList['Toronto'];
     const currReq = new Request(currentWeather.replace('{citycode}', code));
     const futureReq = new Request(futureWeather.replace('{citycode}', code));
     fetch(currReq)

@@ -38,10 +38,8 @@ export function pop(...args) {
 }
 
 export function navigate(...args) {
-  console.log('!!!!', navigationRef.isReady());
   if (navigationRef.isReady()) {
     try {
-      console.log('???');
       navigationRef.current.navigate(...args);
     } catch (e) {
       console.log(e);
